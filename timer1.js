@@ -13,6 +13,6 @@ const beep = function() {
   const numbers = process.argv.slice(2);
   console.log(numbers);
     for (let num = 0; num <= numbers.length; num++){
-    scheduleBeep(num);
+    scheduleBeep(numbers[num]);
   }
   
